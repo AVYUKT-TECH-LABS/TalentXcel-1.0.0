@@ -27,6 +27,7 @@ font & reset css
 */
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900"); */
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* 
 ---------------------------------------------
 reset
@@ -228,7 +229,7 @@ body {
   font-weight: 700;
 }
 
-.section-heading .highlighted{
+.section-heading .highlighted {
   color: #ea7035;
   text-transform: uppercase;
   font-weight: 700;
@@ -700,10 +701,12 @@ Header Style
     border-radius: 0px 0px 25px 25px;
     width: 100%;
   }
+
   .background-header .main-nav .nav,
   .header-area .main-nav .nav {
     background-color: #fff;
   }
+
   .background-header .main-nav .nav li a,
   .header-area .main-nav .nav li a {
     line-height: 50px;
@@ -713,6 +716,7 @@ Header Style
     background-color: #fff;
     border-radius: 0px 0px 25px 25px;
   }
+
   .background-header .main-nav .nav li,
   .header-area .main-nav .nav li {
     border-top: 1px solid #ddd;
@@ -720,10 +724,12 @@ Header Style
     height: 50px;
     border-radius: 0px 0px 25px 25px;
   }
+
   .header-area .main-nav .nav {
     height: auto;
     flex-basis: 100%;
   }
+
   /* .header-area .main-nav .logo {
     position: absolute;
     left: 30px;
@@ -732,36 +738,44 @@ Header Style
   .background-header .main-nav .logo {
     top: 0px;
   }
+
   .background-header .main-nav .border-button {
     top: 0px !important;
   }
+
   .header-area .main-nav .border-button {
     position: absolute;
     top: 15px;
     right: 70px;
   }
+
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
     color: #ee626b !important;
     opacity: 1;
   }
+
   .header-area.header-sticky .nav li.search-icon a {
     width: 100%;
   }
+
   .header-area .nav li:last-child a {
     background-color: transparent !important;
     font-weight: 300 !important;
     text-transform: capitalize !important;
   }
+
   .header-area {
     padding: 0px 15px;
     height: 80px;
     box-shadow: none;
     text-align: center;
   }
+
   .header-area .container {
     padding: 0px;
   }
+
   .header-area .logo {
     margin-left: 0px;
     justify-content: start !important;
@@ -775,9 +789,11 @@ Header Style
   .header-area .menu-trigger {
     display: block !important;
   }
+
   .header-area .main-nav {
     overflow: hidden;
   }
+
   .header-area .main-nav .nav {
     float: none;
     width: 100%;
@@ -788,15 +804,19 @@ Header Style
     transition: all 0s ease 0s;
     margin-left: 0px;
   }
+
   .header-area .main-nav .nav li:first-child {
     border-top: 1px solid #eee;
   }
+
   .header-area.header-sticky .nav {
     margin-top: 80px !important;
   }
+
   .background-header.header-sticky .nav {
     margin-top: 80px !important;
   }
+
   .header-area .main-nav .nav li {
     width: 100%;
     background: #fff;
@@ -841,6 +861,7 @@ Banner Style
   background-image: url("https://live.staticflickr.com/65535/53419220921_3363d3f563_b.jpg");
   height: 1000px;
 }
+
 .main-banner .item-4 {
   background-image: url("https://st4.depositphotos.com/1010613/31014/i/450/depositphotos_310140616-stock-photo-stock-market-broker-analyzing-graphs.jpg");
   height: 1000px;
@@ -1465,6 +1486,7 @@ footer ul li a {
 footer ul li a:hover {
   color: #ea7035;
 }
+
 /* 
 ---------------------------------------------
 Page Header Style
@@ -1781,6 +1803,19 @@ Contact Page Style
   background-color: #ea7035;
 }
 
+.banner {
+  color: #ea7035;
+}
+
+.banner .item {
+  background-size: cover;
+  background-image: url("../images/banner/image.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  border-radius: 10px;
+  border: 2px solid currentColor;
+}
+
 /* 
 ---------------------------------------------
 Responsive Style
@@ -1810,16 +1845,20 @@ body {
     height: 44px;
     line-height: 44px;
   }
+
   .best-deal .tabs-content ul.nav-tabs li {
     margin: 0px 8px 8px 0px;
   }
+
   .industries ul.industries-filter li a {
     font-size: 14px;
     padding: 10px 15px;
   }
+
   .industries ul.industries-filter li {
     margin: 5px;
   }
+
   .header-area .main-nav .nav li:last-child {
     display: none;
   }
@@ -1829,42 +1868,53 @@ body {
   .sub-header {
     display: none;
   }
+
   .header-area .main-nav .logo h1 {
     line-height: 100px;
   }
+
   .background-header .main-nav .logo h1 {
     line-height: 80px;
   }
+
   .header-area .main-nav .nav li a {
     padding-left: 3px;
     padding-right: 3px;
   }
+
   .header-area .main-nav .nav li:last-child a {
     padding-right: 15px;
   }
+
   .main-banner .item h2 {
     font-size: 45px;
     line-height: 50px;
     width: 50%;
   }
+
   .featured .section-heading {
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 100px;
   }
+
   .featured .accordion {
     margin-left: 0px;
     margin-right: 0px;
   }
+
   .featured .info-table {
     margin-top: 45px;
   }
+
   .fun-facts .counter {
     margin-bottom: 45px;
   }
+
   .best-deal .section-heading {
     text-align: center;
   }
+
   .main-banner .item .overlay {
     padding-left: 17% !important;
   }
@@ -1891,49 +1941,62 @@ body {
     margin-bottom: 40px;
     justify-content: center;
   }
+
   .best-deal .info-table {
     margin-bottom: 45px;
   }
+
   .best-deal .tab-content img {
     margin-bottom: 16px;
     padding: 0px;
   }
+
   .best-deal .tabs-content h4 {
     margin-top: 45px;
   }
+
   .industries .item h6 {
     text-align: center;
     margin-bottom: 15px;
   }
+
   .industries .item .main-button {
     text-align: center;
   }
+
   .industries .item ul li {
     margin-right: 10px;
     font-size: 13px;
   }
+
   .contact-content .phone {
     margin-right: 0px;
     margin-bottom: 20px;
   }
+
   .contact-content .email {
     margin-left: 0px;
     margin-bottom: 45px;
   }
+
   .contact-content #contact-form {
     margin-left: 0px;
   }
+
   .single-property .info-table {
     margin-left: 0px;
     margin-top: 45px;
   }
+
   .vision-page .section-heading {
     margin-right: 0px !important;
   }
+
   .vision-page #contact-form {
     margin-left: 0px;
     margin-top: 60px;
   }
+
   .best-deal .info-table ul li span {
     float: right !important;
     width: auto !important;
@@ -1945,6 +2008,7 @@ body {
     float: none;
     width: 100%;
   }
+
   .vision-page .section-heading {
     margin-right: 100px;
   }
