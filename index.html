@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="assets/css/animate.css" />
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
   <link rel="icon" href="assets/images/favicon.ico" type="image/png" sizes="1024x1024" />
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script> -->
 </head>
 
 <body>
@@ -46,34 +47,118 @@
 
   <!-- ***** Header Area Start ***** -->
   <header class="header-area">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
-              <img src="assets/images/full-logo.png" alt="TalentXcel" class="w-50" />
-            </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
-            <ul class="nav">
-              <li><a href="index.html" class="active">Home</a></li>
-              <li><a href="">services</a></li>
-              <li><a href="">Industries</a></li>
-              <li><a href="">About Us</a></li>
-              <li>
-                <a class="d-flex cursor-pointer flex-row align-items-center justify-content-between href=" #"> Contact
-                  Us</a>
-              </li>
-            </ul>
-            <a class="menu-trigger">
-              <span>Menu</span>
-            </a>
-            <!-- ***** Menu End ***** -->
-          </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="index.html" class="logo">
+                <img
+                  src="assets/images/full-logo.png"
+                  alt="TalentXcel"
+                  class="w-50"
+                />
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li class="nav-item"><a href="index.html" class="active">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="vision.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Vision
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-item"><a href="#">About Us</a></li>
+                        <li class="dropdown-item"><a href="#">Our Approach</a></li>
+                        <li class="dropdown-item"><a href="#">Core Values</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Industries
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-item"><a href="#">Energy (Oil & Gas)</a></li>
+                        <li class="dropdown-item"><a href="#">Banking, Financial Services and Insurance (BFSI)</a></li>
+                        <li class="dropdown-item"><a href="#">Technology and Automation</a></li>
+                        <li class="dropdown-item"><a href="#">Healthcare</a></li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-item"><a href="#">Staffing</a></li>
+                        <li class="dropdown-item"><a href="#">Training & Education</a></li>
+                        <li class="dropdown-item"><a href="#">Recruitment</a></li>
+                        <li class="dropdown-item"><a href="#">IT Consulting</a></li>
+                        <li class="dropdown-item"><a href="#">Managed Services</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="d-flex cursor-pointer flex-row align-items-center justify-content-between href="#"
+                    > Contact Us</a
+                  >
+                </li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
         </div>
       </div>
-    </div>
+      <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-white shadow p-4 h-auto">
+            <ul class="mobile-nav">
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Home</a>
+              </li>
+              <li class="mobile-nav-item dropdown">
+                    <span class="mobile-nav-link dropdown-toggle" href="vision.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Vision
+                    </span>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-item"><a href="#">About Us</a></li>
+                        <li class="dropdown-item"><a href="#">Our Approach</a></li>
+                        <li class="dropdown-item"><a href="#">Core Values</a></li>
+                    </ul>
+                </li>
+              <li class="mobile-nav-item dropdown">
+                    <span class="mobile-nav-link dropdown-toggle" href="services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Industries
+                    </span>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-item"><a href="#">Energy (Oil & Gas)</a></li>
+                        <li class="dropdown-item"><a href="#">Banking, Financial Services and Insurance (BFSI)</a></li>
+                        <li class="dropdown-item"><a href="#">Technology and Automation</a></li>
+                        <li class="dropdown-item"><a href="#">Healthcare</a></li>
+                    </ul>
+              </li>
+              <li class="mobile-nav-item dropdown">
+                  <span class="mobile-nav-link dropdown-toggle" href="services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                  </span>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li class="dropdown-item"><a href="#">Staffing</a></li>
+                      <li class="dropdown-item"><a href="#">Training & Education</a></li>
+                      <li class="dropdown-item"><a href="#">Recruitment</a></li>
+                      <li class="dropdown-item"><a href="#">IT Consulting</a></li>
+                      <li class="dropdown-item"><a href="#">Managed Services</a></li>
+                  </ul>
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
   </header>
   <!-- ***** Header Area End ***** -->
 

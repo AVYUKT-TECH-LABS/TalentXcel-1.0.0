@@ -83,7 +83,7 @@
 	if ($('.menu-trigger').length) {
 		$(".menu-trigger").on('click', function () {
 			$(this).toggleClass('active');
-			$('.header-area .nav').slideToggle(200);
+			$('.collapse').slideToggle(200).toggleClass('show')
 		});
 	}
 
@@ -127,5 +127,10 @@
 	});
 
 
+	$('.dropdown').hover(function () {
+		$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(300);
+	}, function () {
+		$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(300);
+	});
 
 })(window.jQuery);
