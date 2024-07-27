@@ -841,40 +841,44 @@ Banner Style
 .main-banner .item .overlay {
   height: 100%;
   width: 100%;
-  background-color: rgb(0, 0, 0, 0.65);
+  background-color: rgb(0, 0, 0, 0.45);
   padding: 220px 20% 320px 20%;
   display: flex;
   align-items: center;
 }
 
+.main-banner .item-3 .overlay {
+  background-color: rgb(0, 0, 0, 0.65);
+}
+
 .main-banner .item-1 {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/01/Solitary_Oil_Rig_In_The_Arabian_Sea.jpg");
-  height: 1000px;
+  height: 800px;
 }
 
 .main-banner .item-2 {
-  background-image: url("https://freerangestock.com/sample/162848/business-team-in-an-engaging-discussion.jpg");
-  height: 1000px;
+  background-image: url("../images/banner/staffing.jpg");
+  height: 800px;
 }
 
 .main-banner .item-3 {
-  background-image: url("https://live.staticflickr.com/65535/53419220921_3363d3f563_b.jpg");
-  height: 1000px;
+  background-image: url("../images/banner/it_consulting.jpeg");
+  height: 800px;
 }
 
 .main-banner .item-4 {
-  background-image: url("https://st4.depositphotos.com/1010613/31014/i/450/depositphotos_310140616-stock-photo-stock-market-broker-analyzing-graphs.jpg");
-  height: 1000px;
+  background-image: url("../images/banner/bfsi.jpg");
+  height: 800px;
 }
 
 .main-banner .item-5 {
   background-image: url("https://freerangestock.com/sample/162639/patient-with-doctor-and-nurse-using-computer.jpg");
-  height: 1000px;
+  height: 800px;
 }
 
 .main-banner .item-6 {
-  background-image: url("https://miro.medium.com/v2/resize:fit:1358/0*KAOkeVYKMyBc019r");
-  height: 1000px;
+  background-image: url("../images/banner/tech_and_automation.png");
+  height: 800px;
 }
 
 .main-banner .item span.category {
@@ -894,12 +898,12 @@ Banner Style
 }
 
 .main-banner .item h2 {
-  font-size: 86px;
+  font-size: 50px;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
-  line-height: 102px;
-  width: 50%;
+  line-height: 80px;
+  width: 75%;
   margin-bottom: 0px;
 }
 
@@ -1518,7 +1522,7 @@ Page Header Style
 }
 
 .page-heading h3 {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 900;
   text-transform: uppercase;
   color: #efefef;
@@ -1840,7 +1844,12 @@ Career Page Style
 
 .accordion-button:focus {
   background-color: transparent;
+  box-shadow: none;
+  outline: none;
+}
 
+.accordion-button:not(.collapsed) {
+  border-bottom: 2px solid #ea7035;
 }
 
 .career-section-subheading h2 {
@@ -1855,6 +1864,7 @@ Career Page Style
   font-style: normal;
   color: #0071f8;
 }
+
 /* .custom-button:focus {
   background-color: transparent;
   border-color: red;
@@ -1931,9 +1941,9 @@ body {
   }
 
   .main-banner .item h2 {
-    font-size: 45px;
+    font-size: 38px;
     line-height: 50px;
-    width: 50%;
+    width: 100%;
   }
 
   .featured .section-heading {
