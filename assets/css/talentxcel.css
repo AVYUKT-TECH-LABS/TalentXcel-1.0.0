@@ -201,7 +201,8 @@ body {
 }
 
 .section {
-  margin-top: 120px;
+  /* margin-top: 120px; */
+  padding-top: 120px;
 }
 
 .section-heading {
@@ -2019,6 +2020,7 @@ body {
 
   .section {
     margin-top: 40px;
+    padding-top: 100px;
   }
 }
 

@@ -1,360 +1,546 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
+    <title>Services - TalentXcel Services</title>
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="description"
+      content="TalentXcel delivers innovative staffing, recruitment, and IT consulting services globally. Specialized in Energy, BFSI, Technology, and Healthcare sectors. Partner with us today!"
+    />
+    <meta
+      name="keywords"
+      content="workforce solutions, IT consulting, global staffing, energy sector recruitment, BFSI staffing, technology automation, healthcare staffing, managed services"
+    />
+    <meta
+      property="og:description"
+      content="Innovative staffing, recruitment, and IT consulting services for Energy, BFSI, Technology, and Healthcare sectors worldwide."
+    />
+    <meta
+      property="og:title"
+      content="TalentXcel: Global Workforce & IT Solutions"
+    />
 
-  <title>Services - TalentXcel Services</title>
-  <meta name="robots" content="index, follow" />
-  <meta name="description"
-    content="TalentXcel delivers innovative staffing, recruitment, and IT consulting services globally. Specialized in Energy, BFSI, Technology, and Healthcare sectors. Partner with us today!" />
-  <meta name="keywords"
-    content="workforce solutions, IT consulting, global staffing, energy sector recruitment, BFSI staffing, technology automation, healthcare staffing, managed services" />
-  <meta property="og:description"
-    content="Innovative staffing, recruitment, and IT consulting services for Energy, BFSI, Technology, and Healthcare sectors worldwide." />
-  <meta property="og:title" content="TalentXcel: Global Workforce & IT Solutions" />
+    <!-- Bootstrap core CSS -->
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <!-- Bootstrap core CSS -->
-  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="/assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="/assets/css/talentxcel.css" />
+    <link rel="stylesheet" href="/assets/css/owl.css" />
+    <link rel="stylesheet" href="/assets/css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link
+      rel="icon"
+      href="/assets/images/favicon.ico"
+      type="image/png"
+      sizes="1024x1024"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
 
-  <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="/assets/css/fontawesome.css" />
-  <link rel="stylesheet" href="/assets/css/talentxcel.css" />
-  <link rel="stylesheet" href="/assets/css/owl.css" />
-  <link rel="stylesheet" href="/assets/css/animate.css" />
-  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-  <link rel="icon" href="/assets/images/favicon.ico" type="image/png" sizes="1024x1024" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
+  <body>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="/" class="logo">
+                <img
+                  src="/assets/images/full-logo.png"
+                  alt="TalentXcel"
+                  class="w-50"
+                />
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li class="nav-item"><a href="/">Home</a></li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="/vision"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Vision
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li class="dropdown-item">
+                      <a href="/vision#about-us">About Us</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="/vision#our-approach">Our Approach</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="/vision#core-values">Core Values</a>
+                    </li>
+                  </ul>
+                </li>
 
-<body>
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
-            <a href="/" class="logo">
-              <img src="/assets/images/full-logo.png" alt="TalentXcel" class="w-50" />
-            </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
-            <ul class="nav">
-              <li class="nav-item"><a href="/">Home</a></li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="/vision" id="navbarDropdownMenuLink" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="/industries"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Industries
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li class="dropdown-item">
+                      <a href="/industries#energy-oil-and-gas"
+                        >Energy (Oil & Gas)</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="/industries#bfsi"
+                        >Banking, Financial Services and Insurance (BFSI)</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="/industries#technology-and-automation"
+                        >Technology and Automation</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="/industries#healthcare">Healthcare</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle active"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Services
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li class="dropdown-item">
+                      <a href="#staffing">Staffing</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#training-and-education">Training & Education</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#recruitment">Recruitment</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#it-consulting">IT Consulting</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#managed-services">Managed Services</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item"><a href="/careers">Careers</a></li>
+                <li class="nav-item">
+                  <a
+                    class="d-flex cursor-pointer flex-row align-items-center justify-content-between"
+                    href="/"
+                  >
+                    Contact Us</a
+                  >
+                </li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-white shadow p-4 h-auto">
+            <ul class="mobile-nav">
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="/">Home</a>
+              </li>
+              <li class="mobile-nav-item dropdown">
+                <span
+                  class="mobile-nav-link dropdown-toggle"
+                  href="/vision"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   Vision
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li class="dropdown-item"><a href="/vision#about-us">About Us</a></li>
-                  <li class="dropdown-item"><a href="/vision#our-approach">Our Approach</a></li>
-                  <li class="dropdown-item"><a href="/vision#core-values">Core Values</a></li>
+                </span>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li class="dropdown-item">
+                    <a href="/vision#about-us">About Us</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="/vision#our-approach">Our Approach</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="/vision#core-values">Core Values</a>
+                  </li>
                 </ul>
               </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="/industries" id="navbarDropdownMenuLink" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
+              <li class="mobile-nav-item dropdown">
+                <span
+                  class="mobile-nav-link dropdown-toggle"
+                  href="/industries"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   Industries
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li class="dropdown-item"><a href="/industries#energy-oil-and-gas">Energy (Oil & Gas)</a></li>
-                  <li class="dropdown-item"><a href="/industries#bfsi">Banking, Financial Services and Insurance
-                      (BFSI)</a></li>
-                  <li class="dropdown-item"><a href="/industries#technology-and-automation">Technology and
-                      Automation</a></li>
-                  <li class="dropdown-item"><a href="/industries#healthcare">Healthcare</a></li>
+                </span>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li class="dropdown-item">
+                    <a href="/industries#energy-oil-and-gas"
+                      >Energy (Oil & Gas)</a
+                    >
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="/industries#bfsi"
+                      >Banking, Financial Services and Insurance (BFSI)</a
+                    >
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="/industries#technology-and-automation"
+                      >Technology and Automation</a
+                    >
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="/industries#healthcare">Healthcare</a>
+                  </li>
                 </ul>
               </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="/services" id="navbarDropdownMenuLink" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
+              <li class="mobile-nav-item dropdown">
+                <span
+                  class="mobile-nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   Services
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li class="dropdown-item"><a href="/services#staffing">Staffing</a></li>
-                  <li class="dropdown-item"><a href="/services#training-and-education">Training & Education</a></li>
-                  <li class="dropdown-item"><a href="/services#recruitment">Recruitment</a></li>
-                  <li class="dropdown-item"><a href="/services#it-consulting">IT Consulting</a></li>
-                  <li class="dropdown-item"><a href="/services#managed-services">Managed Services</a></li>
+                </span>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li class="dropdown-item">
+                    <a href="#staffing">Staffing</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#training-and-education">Training & Education</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#recruitment">Recruitment</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#it-consulting">IT Consulting</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#managed-services">Managed Services</a>
+                  </li>
                 </ul>
               </li>
-              <li class="nav-item"><a href="/careers">Careers</a></li>
-              <li class="nav-item">
-                <a class="d-flex cursor-pointer flex-row align-items-center justify-content-between" href="/"> Contact
-                  Us</a>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="/careers">Careers</a>
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="/">Contact Us</a>
               </li>
             </ul>
-            <a class="menu-trigger">
-              <span>Menu</span>
-            </a>
-            <!-- ***** Menu End ***** -->
-          </nav>
-        </div>
-      </div>
-    </div>
-    <div class="pos-f-t">
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-white shadow p-4 h-auto">
-          <ul class="mobile-nav">
-            <li class="mobile-nav-item">
-              <a class="mobile-nav-link" href="/">Home</a>
-            </li>
-            <li class="mobile-nav-item dropdown">
-              <span class="mobile-nav-link dropdown-toggle" href="/vision" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Vision
-              </span>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li class="dropdown-item"><a href="/vision#about-us">About Us</a></li>
-                <li class="dropdown-item"><a href="/vision#our-approach">Our Approach</a></li>
-                <li class="dropdown-item"><a href="/vision#core-values">Core Values</a></li>
-              </ul>
-            </li>
-            <li class="mobile-nav-item dropdown">
-              <span class="mobile-nav-link dropdown-toggle" href="/industries" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Industries
-              </span>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li class="dropdown-item"><a href="/industries#energy-oil-and-gas">Energy (Oil & Gas)</a></li>
-                <li class="dropdown-item"><a href="/industries#bfsi">Banking, Financial Services and Insurance
-                    (BFSI)</a></li>
-                <li class="dropdown-item"><a href="/industries#technology-and-automation">Technology and
-                    Automation</a></li>
-                <li class="dropdown-item"><a href="/industries#healthcare">Healthcare</a></li>
-              </ul>
-            </li>
-            <li class="mobile-nav-item dropdown">
-              <span class="mobile-nav-link dropdown-toggle" href="/services" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Services
-              </span>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li class="dropdown-item"><a href="/services#staffing">Staffing</a></li>
-                <li class="dropdown-item"><a href="/services#training-and-education">Training & Education</a></li>
-                <li class="dropdown-item"><a href="/services#recruitment">Recruitment</a></li>
-                <li class="dropdown-item"><a href="/services#it-consulting">IT Consulting</a></li>
-                <li class="dropdown-item"><a href="/services#managed-services">Managed Services</a></li>
-              </ul>
-            </li>
-            <li class="mobile-nav-item"><a class="mobile-nav-link" href="/careers">Careers</a></li>
-            <li class="mobile-nav-item">
-              <a class="mobile-nav-link" href="/">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- ***** Header Area End ***** -->
-
-  <div class="page-heading header-text">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h3>Empowering Success with Precision Solutions</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="section" style="margin-top: 60px !important;">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <p class="text-center fs-6">
-            At TalentXcel, we are dedicated to revolutionizing the way businesses achieve their goals through our
-            comprehensive range of services. From strategic staffing and advanced training to cutting-edge IT consulting
-            and seamless managed services, we provide tailored solutions that drive performance and foster growth. Our
-            mission is to turn complex challenges into opportunities for success, delivering exceptional value and
-            innovation every step of the way. Partner with us, and experience how we elevate your business with
-            precision and expertise.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="vision-page section" id="staffing">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="section-heading">
-            <h4 class="highlighted">Staffing</h4>
-            <h2>Delivering Talent to Drive Organizational Success</h2>
           </div>
-          <div>
-            <div class="fs-6 mb-3">
-              <p class="fs-6 mb-3">At TalentXcel, our staffing solutions are designed to address your unique hiring
-                needs with precision and speed. We connect organizations with top-tier candidates who are well-suited
-                for their roles, whether for temporary, contract, or permanent positions. Our approach focuses on
-                understanding your specific requirements and delivering qualified talent that drives success and
-                enhances operational efficiency.</p>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <div class="page-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Empowering Success with Precision Solutions</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" style="padding-top: 0px !important">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="text-center fs-6">
+              At TalentXcel, we are dedicated to revolutionizing the way
+              businesses achieve their goals through our comprehensive range of
+              services. From strategic staffing and advanced training to
+              cutting-edge IT consulting and seamless managed services, we
+              provide tailored solutions that drive performance and foster
+              growth. Our mission is to turn complex challenges into
+              opportunities for success, delivering exceptional value and
+              innovation every step of the way. Partner with us, and experience
+              how we elevate your business with precision and expertise.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="vision-page section" id="staffing">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="section-heading">
+              <h4 class="highlighted">Staffing</h4>
+              <h2>Delivering Talent to Drive Organizational Success</h2>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <img src="/assets/images/sections/staffing.jpg" class="rounded shadow" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="vision-page section" id="training-and-education">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="section-heading">
-            <h4 class="highlighted">Training and Education</h4>
-            <h2>Empowering Teams through Skill Development</h2>
-          </div>
-          <div>
-            <div class="fs-6 mb-3">
-              <p class="fs-6 mb-3">TalentXcel&apos;s training and education services are crafted to foster professional
-                growth and development. We provide tailored programs that address skill gaps and prepare teams for
-                future challenges. Our training solutions cover a wide range of topics, from technical skills to
-                leadership development, ensuring that your workforce remains competitive and capable in an ever-evolving
-                market.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <img src="/assets/images/sections/training_and_education.png" class="rounded shadow" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="vision-page section" id="recruitment">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="section-heading">
-            <h4 class="highlighted">Recruitment</h4>
-            <h2>Finding the Perfect Fit for Your Organizational Needs</h2>
-          </div>
-          <div>
-            <div class="fs-6 mb-3">
-              <p class="fs-6 mb-3">Our recruitment services are focused on identifying and securing exceptional
-                candidates who are a perfect fit for your organization. TalentXcel utilizes advanced recruitment
-                strategies and tools to source, screen, and select candidates who not only possess the right skills but
-                also align with your company&apos;s culture and objectives. We aim to streamline the hiring process and
-                ensure that you build a strong and effective team.</p>
-              <div style="margin-left:40px; margin: 40px 20px;">
-                <h4 class="highlighted" style="color: #ea7035; margin-bottom: 10px;">Recruitment Process Outsourcing
-                  (RPO)</h4>
+            <div>
+              <div class="fs-6 mb-3">
                 <p class="fs-6 mb-3">
-                  TalentXcel&apos;s Recruitment Process Outsourcing (RPO) services offer a strategic approach to
-                  managing
-                  your recruitment activities. By outsourcing your recruitment processes to our experienced team, you
-                  can focus on your core business functions while we handle everything from candidate sourcing and
-                  screening to onboarding. Our RPO services are designed to be flexible and scalable, ensuring that you
-                  receive a customized solution that meets your specific hiring needs and helps you achieve your talent
-                  acquisition goals.
+                  At TalentXcel, our staffing solutions are designed to address
+                  your unique hiring needs with precision and speed. We connect
+                  organizations with top-tier candidates who are well-suited for
+                  their roles, whether for temporary, contract, or permanent
+                  positions. Our approach focuses on understanding your specific
+                  requirements and delivering qualified talent that drives
+                  success and enhances operational efficiency.
                 </p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4">
-          <img src="/assets/images/sections/recruitment.png" class="rounded shadow" alt="">
+          <div class="col-lg-4">
+            <img
+              src="/assets/images/sections/staffing.jpg"
+              class="rounded shadow"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="vision-page section" id="it-consulting">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="section-heading">
-            <h4 class="highlighted">IT Consulting</h4>
-            <h2>Driving Technological Advancement through Expert Guidance</h2>
+    <div class="vision-page section" id="training-and-education">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="section-heading">
+              <h4 class="highlighted">Training and Education</h4>
+              <h2>Empowering Teams through Skill Development</h2>
+            </div>
+            <div>
+              <div class="fs-6 mb-3">
+                <p class="fs-6 mb-3">
+                  TalentXcel&apos;s training and education services are crafted
+                  to foster professional growth and development. We provide
+                  tailored programs that address skill gaps and prepare teams
+                  for future challenges. Our training solutions cover a wide
+                  range of topics, from technical skills to leadership
+                  development, ensuring that your workforce remains competitive
+                  and capable in an ever-evolving market.
+                </p>
+              </div>
+            </div>
           </div>
-          <div>
-            <div class="fs-6 mb-3">
-              <p class="fs-6 mb-3">TalentXcel&apos;s IT consulting services are designed to help you navigate the
-                complex
-                world of technology. Our experts offer strategic advice and solutions to enhance your IT infrastructure,
-                streamline operations, and integrate new technologies. We work closely with your team to understand your
-                specific needs and deliver customized solutions that support your business goals and drive technological
-                progress.</p>
+          <div class="col-lg-4">
+            <img
+              src="/assets/images/sections/training_and_education.png"
+              class="rounded shadow"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="vision-page section" id="recruitment">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="section-heading">
+              <h4 class="highlighted">Recruitment</h4>
+              <h2>Finding the Perfect Fit for Your Organizational Needs</h2>
+            </div>
+            <div>
+              <div class="fs-6 mb-3">
+                <p class="fs-6 mb-3">
+                  Our recruitment services are focused on identifying and
+                  securing exceptional candidates who are a perfect fit for your
+                  organization. TalentXcel utilizes advanced recruitment
+                  strategies and tools to source, screen, and select candidates
+                  who not only possess the right skills but also align with your
+                  company&apos;s culture and objectives. We aim to streamline
+                  the hiring process and ensure that you build a strong and
+                  effective team.
+                </p>
+                <div style="margin-left: 40px; margin: 40px 20px">
+                  <h4
+                    class="highlighted"
+                    style="color: #ea7035; margin-bottom: 10px"
+                  >
+                    Recruitment Process Outsourcing (RPO)
+                  </h4>
+                  <p class="fs-6 mb-3">
+                    TalentXcel&apos;s Recruitment Process Outsourcing (RPO)
+                    services offer a strategic approach to managing your
+                    recruitment activities. By outsourcing your recruitment
+                    processes to our experienced team, you can focus on your
+                    core business functions while we handle everything from
+                    candidate sourcing and screening to onboarding. Our RPO
+                    services are designed to be flexible and scalable, ensuring
+                    that you receive a customized solution that meets your
+                    specific hiring needs and helps you achieve your talent
+                    acquisition goals.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <img
+              src="/assets/images/sections/recruitment.png"
+              class="rounded shadow"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="vision-page section" id="it-consulting">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="section-heading">
+              <h4 class="highlighted">IT Consulting</h4>
+              <h2>Driving Technological Advancement through Expert Guidance</h2>
+            </div>
+            <div>
+              <div class="fs-6 mb-3">
+                <p class="fs-6 mb-3">
+                  TalentXcel&apos;s IT consulting services are designed to help
+                  you navigate the complex world of technology. Our experts
+                  offer strategic advice and solutions to enhance your IT
+                  infrastructure, streamline operations, and integrate new
+                  technologies. We work closely with your team to understand
+                  your specific needs and deliver customized solutions that
+                  support your business goals and drive technological progress.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <img
+              src="/assets/images/sections/it_consulting.png"
+              class="rounded shadow"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="vision-page section" id="managed-services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-heading">
+              <h4 class="highlighted">Managed Services</h4>
+              <h2>Ensuring Operational Excellence with Proactive Management</h2>
+            </div>
+            <div>
+              <p class="fs-6 mb-3">
+                With TalentXcel&apos;s managed services, you can rely on our
+                expertise to handle your IT operations and support needs. We
+                offer end-to-end management of your IT infrastructure, including
+                monitoring, maintenance, and support. Our proactive approach
+                ensures that your systems remain operational and secure,
+                enabling you to focus on strategic initiatives and core business
+                activities. Our goal is to provide seamless and efficient IT
+                management that drives business success.
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <img src="/assets/images/sections/it_consulting.png" class="rounded shadow" alt="">
+      </div>
+    </div>
+
+    <footer>
+      <div
+        class="container d-flex flex-column flex-md-row align-items-center justify-content-between"
+      >
+        <div class="col-md-8 mb-3 mb-md-0 text-center text-md-start">
+          <p>Copyright © 2024 TALENTXCEL SERVICES PRIVATE LIMITED</p>
+        </div>
+        <div class="col-md-4">
+          <ul
+            class="d-flex flex-column flex-md-row align-items-center justify-content-between list-unstyled"
+          >
+            <li class="mb-2 mb-md-0">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="mb-2 mb-md-0">
+              <a href="services.html">Services</a>
+            </li>
+            <li class="mb-2 mb-md-0">
+              <a href="industries.html">Industries</a>
+            </li>
+            <li class="mb-2 mb-md-0">
+              <a href="vision.html#about-us">About Us</a>
+            </li>
+            <li class="mb-2 mb-md-0">
+              <a href="">Contact Us</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </div>
+    </footer>
 
-  <div class="vision-page section" id="managed-services">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="section-heading">
-            <h4 class="highlighted">Managed Services</h4>
-            <h2>Ensuring Operational Excellence with Proactive Management</h2>
-          </div>
-          <div>
-            <p class="fs-6 mb-3">With TalentXcel&apos;s managed services, you can rely on our expertise to handle your
-              IT
-              operations and support needs. We offer end-to-end management of your IT infrastructure, including
-              monitoring, maintenance, and support. Our proactive approach ensures that your systems remain
-              operational and secure, enabling you to focus on strategic initiatives and core business activities. Our
-              goal is to provide seamless and efficient IT management that drives business success.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
-      <div class="col-md-8 mb-3 mb-md-0 text-center text-md-start">
-        <p>
-          Copyright © 2024 TALENTXCEL SERVICES PRIVATE LIMITED
-        </p>
-      </div>
-      <div class="col-md-4">
-        <ul class="d-flex flex-column flex-md-row align-items-center justify-content-between list-unstyled">
-          <li class="mb-2 mb-md-0">
-            <a href="index.html">Home</a>
-          </li>
-          <li class="mb-2 mb-md-0">
-            <a href="services.html">Services</a>
-          </li>
-          <li class="mb-2 mb-md-0">
-            <a href="industries.html">Industries</a>
-          </li>
-          <li class="mb-2 mb-md-0">
-            <a href="vision.html#about-us">About Us</a>
-          </li>
-          <li class="mb-2 mb-md-0">
-            <a href="">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </footer>
-
-  <script src="/assets/js/isotope.min.js"></script>
-  <script src="/assets/js/owl-carousel.js"></script>
-  <script src="/assets/js/counter.js"></script>
-  <script src="/assets/js/custom.js"></script>
-</body>
-
+    <script src="/assets/js/isotope.min.js"></script>
+    <script src="/assets/js/owl-carousel.js"></script>
+    <script src="/assets/js/counter.js"></script>
+    <script src="/assets/js/custom.js"></script>
+  </body>
 </html>
