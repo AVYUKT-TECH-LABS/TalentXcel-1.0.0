@@ -37,7 +37,6 @@
 		}
 	});
 
-
 	// Menu Dropdown Toggle
 	if ($('.menu-trigger').length) {
 		$(".menu-trigger").on('click', function () {
@@ -45,7 +44,6 @@
 			$('.collapse').slideToggle(200).toggleClass('show')
 		});
 	}
-
 
 	// Menu elevator animation
 	$('.scroll-to-section a[href*=\\#]:not([href=\\#])').on('click', function () {
@@ -65,7 +63,6 @@
 			}
 		}
 	});
-
 
 	$('.dropdown').hover(function () {
 		$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(300);

@@ -1067,10 +1067,15 @@ Featured Style
   color: #1e1e1e;
 }
 
-.featured .accordion-button:not(.collapsed) {
+.featured .accordion-button:not(.collapsed),
+.accordion-button:not(.collapsed) {
   color: #ea7035;
   background-color: #fafafa;
   outline: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../images/accordion/open.svg");
 }
 
 .featured .accordion-button::after {
@@ -2172,8 +2177,12 @@ body {
   margin-top: 12px;
 }
 
-.dropdown:hover .dropdown-menu {
+.nav-item.dropdown:hover .dropdown-menu {
   display: block;
+}
+
+.nav-item.dropdown .dropdown-menu {
+  display: none;
 }
 
 .header-area .main-nav .nav li.nav-item a.dropdown-toggle {
