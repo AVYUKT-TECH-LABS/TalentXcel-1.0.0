@@ -1257,7 +1257,7 @@ Best Deal Style
   padding: 0px 45px;
 } */
 
-.best-deal .tabs-content .nav-link {
+.tabs-content .nav-link {
   font-size: 16px;
   font-weight: 500;
   background-color: #1e1e1e !important;
@@ -1269,32 +1269,37 @@ Best Deal Style
   color: #fff;
 }
 
-.best-deal .tabs-content .nav-tabs .nav-link.active {
+.tabs-content .nav-tabs .nav-link.active {
   background-color: #ea7035 !important;
   color: #fff;
 }
 
 .best-deal .tabs-content ul.nav-tabs {
-  border-bottom: none !important;
-  margin-bottom: 80px;
   align-items: end;
   justify-content: end;
   margin-top: -130px;
+  margin-bottom: 80px;
+}
+.tabs-content ul.nav-tabs {
+  border-bottom: none !important;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
 }
 
-.best-deal .tabs-content ul.nav-tabs li {
+.tabs-content ul.nav-tabs li {
   padding-right: 0px;
   border-right: none;
   margin-left: 20px;
 }
 
-.best-deal .info-table {
+.info-table {
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   padding: 35px 30px;
 }
 
-.best-deal .info-table ul li {
+.info-table ul li {
   display: block;
   margin-bottom: 24px;
   padding-bottom: 24px;
@@ -1305,13 +1310,13 @@ Best Deal Style
   font-weight: 400;
 }
 
-.best-deal .info-table ul li:last-child {
+.info-table ul li:last-child {
   border-bottom: none;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
-.best-deal .info-table ul li span {
+.info-table ul li span {
   font-size: 20px;
   color: #1e1e1e;
   font-weight: 700;
@@ -1319,12 +1324,12 @@ Best Deal Style
   display: inline-block;
 }
 
-.best-deal .tabs-content {
+.tabs-content {
   padding: 0px;
   background-color: transparent;
 }
 
-.best-deal .tabs-content h4 {
+.tabs-content h4 {
   font-size: 17px;
   font-weight: 600;
   margin-bottom: 30px;
@@ -1332,6 +1337,11 @@ Best Deal Style
 
 .best-deal .icon-button {
   margin-top: 30px;
+}
+
+.detailed-tabs .tab-pane {
+  margin-top: -80px;
+  padding-top: 120px;
 }
 
 /* 
@@ -1972,7 +1982,7 @@ body {
     margin-top: 0;
   }
 
-  .page-heading h3{
+  .page-heading h3 {
     font-size: 50px;
     line-height: 60px;
   }
