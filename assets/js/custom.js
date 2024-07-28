@@ -29,10 +29,10 @@
 		autoplay: true,
 		animateIn: 'fadeIn',
 		animateOut: "fadeOut",
-		autoplayTimeout: 6000,
+		autoplayTimeout: 8000,
 		autoplayHoverPause: true,
-		nav: true,
-		dots: true,
+		// nav: true,
+		// dots: true,
 		navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
 		margin: 30,
 		responsive: {

@@ -26,8 +26,7 @@ font & reset css
 --------------------------------------------- 
 */
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900"); */
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 /* 
 ---------------------------------------------
 reset
@@ -464,7 +463,7 @@ Header Style
 .header-area {
   position: fixed;
   background-color: #fff;
-  height: 100px;
+  height: 80px;
   width: 100%;
   z-index: 100;
   -webkit-transition: all 0.5s ease 0s;
@@ -492,12 +491,12 @@ Header Style
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 100px;
+  height: 80px;
 }
 
 .header-area .main-nav ul.nav {
   flex-basis: 100%;
-  margin-top: 30px;
+  margin-top: 20px;
   justify-content: right;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -831,6 +830,43 @@ Banner Style
 --------------------------------------------- 
 */
 
+.main-banner {
+  position: relative;
+  top: 80px;
+  margin-bottom: 60px;
+}
+
+.main-banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /* background-color: rgb(0, 0, 0, 0.45); */
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3) 12.77%,
+      rgba(0, 0, 0, 0) 20.13%
+    ),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.56) 1.71%, rgba(52, 52, 52, 0) 100%);
+  padding: 220px 20% 320px 20%;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.main-banner .overlay .header-text {
+  width: 560px;
+}
+
+.main-banner .overlay hr {
+  width: 420px;
+  height: 4px;
+  background-color: #ea7035;
+  opacity: 1;
+  border: none;
+}
+
 .main-banner .item {
   background-position: center center;
   background-repeat: no-repeat;
@@ -851,37 +887,35 @@ Banner Style
   background-color: rgb(0, 0, 0, 0.65);
 }
 
+.main-banner .item {
+  height: 800px;
+}
+
 .main-banner .item-1 {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/01/Solitary_Oil_Rig_In_The_Arabian_Sea.jpg");
-  height: 800px;
 }
 
 .main-banner .item-2 {
   background-image: url("../images/banner/staffing.jpg");
-  height: 800px;
 }
 
 .main-banner .item-3 {
   background-image: url("../images/banner/it_consulting.jpeg");
-  height: 800px;
 }
 
 .main-banner .item-4 {
   background-image: url("../images/banner/bfsi.jpg");
-  height: 800px;
 }
 
 .main-banner .item-5 {
   background-image: url("https://freerangestock.com/sample/162639/patient-with-doctor-and-nurse-using-computer.jpg");
-  height: 800px;
 }
 
 .main-banner .item-6 {
   background-image: url("../images/banner/tech_and_automation.png");
-  height: 800px;
 }
 
-.main-banner .item span.category {
+.main-banner .overlay span.category {
   background-color: #fff;
   color: #1e1e1e;
   font-size: 16px;
@@ -892,19 +926,48 @@ Banner Style
   margin-bottom: 30px;
 }
 
-.main-banner .item span.category em {
+.main-banner .overlay span.category em {
   font-style: normal;
   color: #ea7035;
 }
 
-.main-banner .item h2 {
-  font-size: 50px;
+.main-banner .overlay h2 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: 60px;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #fff;
-  line-height: 80px;
-  width: 75%;
+  line-height: 70px;
+  width: 100%;
   margin-bottom: 0px;
+}
+.main-banner .overlay .cta-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin-top: 12px;
+}
+
+.main-banner .overlay .cta-btn {
+  border: 1px solid #fff;
+  border-radius: 45.813px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 12px;
+}
+
+.main-banner .overlay a.cta-btn:hover {
+  background: #ea7035;
+  border: 1px solid #ea7035;
+  color: #fff;
 }
 
 .main-banner .owl-dots {
@@ -913,7 +976,7 @@ Banner Style
   left: 20%;
 }
 
-.main-banner .owl-dots .owl-dot {
+/* .main-banner .owl-dots .owl-dot {
   width: 10px;
   height: 10px;
   background-color: #fff;
@@ -924,7 +987,7 @@ Banner Style
 
 .main-banner .owl-dots .active {
   background-color: #ea7035;
-}
+} */
 
 .main-banner .owl-nav {
   position: absolute;
@@ -1502,8 +1565,11 @@ Page Header Style
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 180px 0px 110px;
+  padding: 110px 0px 110px;
   text-align: center;
+  position: relative;
+  top: 80px;
+  margin-bottom: 120px;
 }
 
 .page-heading span {
@@ -1522,9 +1588,11 @@ Page Header Style
 }
 
 .page-heading h3 {
-  font-size: 38px;
+  font-size: 60px;
   font-weight: 900;
-  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  /* text-transform: uppercase; */
   color: #efefef;
 }
 
@@ -1893,6 +1961,31 @@ body {
     line-height: 20px;
   }
 
+  .main-banner .overlay {
+    padding-left: 12px;
+  }
+
+  .main-banner .overlay h2 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 0;
+  }
+
+  .page-heading h3{
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .main-banner .overlay hr {
+    width: 170px;
+    height: 2px;
+  }
+
+  .main-banner .overlay .cta-btn {
+    font-size: 15px;
+    padding: 8px 14px;
+  }
+
   .best-deal .tabs-content .nav-link {
     font-size: 14px;
     padding: 0px 15px;
@@ -1915,6 +2008,17 @@ body {
 
   .header-area .main-nav .nav li.nav-item:last-child {
     display: none;
+  }
+  .main-banner .item {
+    height: 650px;
+  }
+
+  .section .best-deal {
+    margin-top: -60px;
+  }
+
+  .section {
+    margin-top: 40px;
   }
 }
 
