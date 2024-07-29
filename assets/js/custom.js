@@ -9,10 +9,14 @@
 
 		if (scroll >= box - header) {
 			$("header").addClass("shadow");
+			// $(".home-header-area").removeClass("home-header")
 		} else {
 			$("header").removeClass("shadow");
+			// $(".home-header-area").addClass("home-header")
 		}
 	})
+
+	new WOW().init();
 
 	$('.owl-banner').owlCarousel({
 		center: true,

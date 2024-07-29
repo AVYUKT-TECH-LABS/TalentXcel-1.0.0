@@ -477,6 +477,17 @@ Header Style
   transition: box-shadow 1s;
 }
 
+.home-header {
+  background-color: transparent !important;
+}
+
+.home-header .main-nav .nav li.nav-item a {
+  color: #fff !important;
+}
+.home-header .main-nav .nav li.nav-item a.active {
+  color: #f18854 !important;
+}
+
 .header-area .main-nav {
   background: transparent;
   display: flex;
@@ -817,7 +828,7 @@ Banner Style
 .main-banner {
   position: relative;
   top: 80px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .main-banner .overlay {
@@ -827,9 +838,11 @@ Banner Style
   height: 100%;
   width: 100%;
   /* background-color: rgb(0, 0, 0, 0.45); */
-  background: linear-gradient(180deg,
+  background: linear-gradient(
+      180deg,
       rgba(0, 0, 0, 0.3) 12.77%,
-      rgba(0, 0, 0, 0) 20.13%),
+      rgba(0, 0, 0, 0) 20.13%
+    ),
     linear-gradient(90deg, rgba(0, 0, 0, 0.56) 1.71%, rgba(52, 52, 52, 0) 100%);
   padding: 220px 20% 320px 20%;
   display: flex;
@@ -854,6 +867,7 @@ Banner Style
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 0px;
+  height: 800px;
 }
 
 .main-banner .item .overlay {
@@ -868,11 +882,6 @@ Banner Style
 .main-banner .item-3 .overlay {
   background-color: rgb(0, 0, 0, 0.65);
 }
-
-.main-banner .item {
-  height: 800px;
-}
-
 .main-banner .item-1 {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/01/Solitary_Oil_Rig_In_The_Arabian_Sea.jpg");
 }
@@ -911,6 +920,25 @@ Banner Style
 .main-banner .overlay span.category em {
   font-style: normal;
   color: #ea7035;
+}
+
+.bg-brand {
+  background-color: #ea7035;
+  border-color: #ea7035;
+}
+.bg-brand:hover {
+  background-color: #c5561f;
+  border-color: #c5561f;
+}
+
+.text-brand {
+  color: #ea7035;
+}
+
+.feature .feature-item {
+    border-radius: 10px;
+    background: #fafafa;
+    transition: 0.5s;
 }
 
 .main-banner .overlay h2 {
@@ -1783,6 +1811,14 @@ Contact Page Style
 
 .vision-page #map {
   margin-top: 100px;
+}
+
+.vision-page {
+  padding-top: 150px !important;
+}
+
+.section-heading {
+  width: 100%;
 }
 
 .vision-page .section-heading {
