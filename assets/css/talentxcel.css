@@ -249,6 +249,10 @@ body {
   transition: all 0.3s;
 }
 
+.vision-page {
+  padding-top: 150px !important;
+}
+
 .icon-button a i {
   background-color: #ea7035;
   height: 50px;
@@ -690,6 +694,10 @@ Header Style
   }
 }
 
+.section.best-deal {
+  margin-top: -60px;
+}
+
 @media (max-width: 767px) {
   .background-header .main-nav {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
@@ -822,6 +830,27 @@ Header Style
   .section-heading .highlighted {
     margin-top: 30px;
   }
+
+  .section,
+  .vision-page {
+    padding-top: 0px !important;
+  }
+
+  .section.best-deal {
+    margin-top: 20px;
+    padding-top: 40px !important;
+  }
+}
+
+.location-item {
+  background-color: white;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 /* 
@@ -843,9 +872,11 @@ Banner Style
   height: 100%;
   width: 100%;
   /* background-color: rgb(0, 0, 0, 0.45); */
-  background: linear-gradient(180deg,
+  background: linear-gradient(
+      180deg,
       rgba(0, 0, 0, 0.3) 12.77%,
-      rgba(0, 0, 0, 0) 20.13%),
+      rgba(0, 0, 0, 0) 20.13%
+    ),
     linear-gradient(90deg, rgba(0, 0, 0, 0.56) 1.71%, rgba(52, 52, 52, 0) 100%);
   padding: 220px 20% 320px 20%;
   display: flex;
@@ -927,6 +958,11 @@ Banner Style
 }
 
 .bg-brand {
+  background-color: #ea7035;
+  border-color: #ea7035;
+}
+
+.bg-brand-no-hover {
   background-color: #ea7035;
   border-color: #ea7035;
 }
@@ -1816,10 +1852,6 @@ Contact Page Style
 
 .vision-page #map {
   margin-top: 100px;
-}
-
-.vision-page {
-  padding-top: 150px !important;
 }
 
 .section-heading {

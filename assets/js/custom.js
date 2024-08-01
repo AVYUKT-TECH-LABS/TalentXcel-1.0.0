@@ -16,7 +16,16 @@
 		}
 	})
 
-	new WOW().init();
+	const hash = window.location.hash.substring(1);
+	if (!hash.length > 0) {
+		new WOW().init();
+	} else {
+		//remove classes
+		const elements = document.getElementsByClassName("wow");
+		while (elements.length > 0) {
+			elements[0].classList.remove("wow");
+		}
+	}
 
 	$('.owl-banner').owlCarousel({
 		center: true,
