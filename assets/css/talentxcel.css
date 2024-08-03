@@ -843,15 +843,28 @@ Header Style
 }
 
 .location-item {
-  background-color: white;
+  /* background-color: white; */
   border-radius: 12px;
-  padding: 12px;
+  padding: 24px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  max-width: 200px;
+  /* max-width: 200px; */
+}
+
+.location-image {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  background-color: white;
+  /* filter: brightness(0) invert(1); */
+}
+
+.location-border {
+  border: 3px solid black;
 }
 
 /* 
@@ -2051,6 +2064,10 @@ body {
 
   footer p {
     line-height: 20px;
+  }
+
+  .feature {
+    margin-bottom: 20px;
   }
 
   .main-banner .overlay {
