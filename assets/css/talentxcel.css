@@ -1011,7 +1011,7 @@ Banner Style
 .feature .feature-item:hover p {
   color: white;
 }
-.main-banner .overlay h2 {
+.main-banner .overlay h1 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-size: 60px;
@@ -1771,6 +1771,14 @@ Page Header Style
 }
 
 .page-heading h3 {
+  font-size: 60px;
+  font-weight: 900;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  /* text-transform: uppercase; */
+  color: #efefef;
+}
+.page-heading h1 {
   font-size: 60px;
   font-weight: 900;
   font-family: "Playfair Display", serif;
