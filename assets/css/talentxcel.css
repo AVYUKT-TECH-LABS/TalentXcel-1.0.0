@@ -1492,6 +1492,18 @@ Properties Style
   text-align: center;
 }
 
+.industries-margin {
+  margin-bottom: 60px;
+}
+
+.industries-main {
+  padding-top: 0px !important; 
+  margin: auto;
+}
+
+.industries-main-p {
+  margin-top: -40px;
+}
 /* 
 ---------------------------------------------
 Contact Style
@@ -1694,6 +1706,18 @@ Contact Style
   font-weight: 400;
 }
 
+.contact-main {
+  margin-bottom: 30px;
+}
+
+.contact-main-p {
+  margin-bottom: 50px
+}
+
+.contact-main-info {
+  max-width: 52px;
+}
+
 /* 
 ---------------------------------------------
 Footer Style
@@ -1735,6 +1759,10 @@ footer ul li a {
 
 footer ul li a:hover {
   color: #ea7035;
+}
+
+.footer-style {
+  margin-top: 0 !important;
 }
 
 /* 
@@ -2070,6 +2098,96 @@ Contact Page Style
   background-color: #ea7035;
 }
 
+.vision-card {
+  visibility: visible;
+  animation-delay: 0.2s;
+  animation-name: fadeInUp;
+}
+
+#about-us {
+  margin-top: 120px;
+}
+
+.about-card-left {
+  visibility: visible;
+  animation-delay: 0.2s;
+  animation-name: fadeInLeft;
+}
+
+.about-card-right {
+  visibility: visible;
+  animation-delay: 0.2s;
+  animation-name: fadeInRight;
+}
+
+.abt-m {
+  margin-bottom: 0px;
+}
+
+.mission {
+  padding-top: 0px !important;
+}
+
+.core-value-list {
+  margin-left: 60px; 
+  margin-top: 20px;
+}
+
+.location {
+  padding: 80px 0px; 
+  margin-top: 60px;
+}
+
+.location-trans-up {
+  visibility: visible;
+  animation-delay: 0.2s;
+  animation-name: fadeInUp;
+}
+
+.location-trans-up-4 {
+  visibility: visible;
+  animation-delay: 0.4s;
+  animation-name: fadeInUp;
+}
+
+.location-trans-up-6 {
+  visibility: visible;
+  animation-delay: 0.6s;
+  animation-name: fadeInUp;
+}
+
+.location-trans-up-8 {
+  visibility: visible;
+  animation-delay: 0.8s;
+  animation-name: fadeInUp;
+}
+
+.location-trans-up-1s {
+  visibility: visible;
+  animation-delay: 1s;
+  animation-name: fadeInUp;            
+}
+
+.location-trans-up-1p2s {
+  visibility: visible;
+  animation-delay: 1.2s;
+  animation-name: fadeInUp;            
+}
+
+.location-trans-up-1p4s {
+  visibility: visible;
+  animation-delay: 1.4s;
+  animation-name: fadeInUp;            
+}
+
+.location-trans-up-1p6s {
+  visibility: visible;
+  animation-delay: 1.6s;
+  animation-name: fadeInUp;            
+}
+
+
+
 .banner {
   color: #ea7035;
 }
@@ -2133,6 +2251,47 @@ Career Page Style
   border-color: red;
 } */
 
+.career-main {
+  padding-top: 0px !important;
+}
+
+.accordion-style {
+  margin-left:20px;
+}
+
+.accordion-ul {
+  list-style: disc !important;
+}
+
+.accordion-li {
+  list-style: disc !important;
+  margin-bottom: 10px;
+}
+
+/* 
+---------------------------------------------
+Services Style
+--------------------------------------------- 
+*/
+
+.services-main {
+  padding-top: 0px !important; 
+  margin: auto;
+}
+
+.services-main-p {
+  margin-top: -40px;
+}
+
+.serivce-recr {
+  margin-left: 40px; 
+  margin: 40px 20px;
+}
+
+.recruitment-style {
+  color: #ea7035; 
+  margin-bottom: 10px;
+}
 /* 
 ---------------------------------------------
 Responsive Style
