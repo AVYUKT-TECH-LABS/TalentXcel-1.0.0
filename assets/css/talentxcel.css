@@ -1718,6 +1718,12 @@ Contact Style
   max-width: 52px;
 }
 
+.map-ele {
+  border:0; 
+  border-radius: 10px; 
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+
 /* 
 ---------------------------------------------
 Footer Style
